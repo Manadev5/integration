@@ -1,0 +1,11 @@
+.hover-effect{
+    border-radius: 3px;
+}
+
+.hover-effect:hover{
+    opacity: 30%;
+}
+
+.projet-1 img:last-of-type{
+    filter: grayscale(100%);
+}
