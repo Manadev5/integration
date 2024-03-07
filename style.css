@@ -1,3 +1,4 @@
+
 .hover-effect{
     border-radius: 3px;
 }
@@ -9,3 +10,50 @@
 .projet-1 img:last-of-type{
     filter: grayscale(100%);
 }
+
+
+  .burger-icon span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  
+  }
+
+  nav {
+    position: absolute;
+    top: 7%;
+    background-color: aqua;
+    width: 250px;
+    text-align: center;
+    height:100%;
+    transform: translate3d(-400px, 0 , 0 );
+    transition: all 0.8s ease;
+  }
+
+  label{
+    display: block;
+  }
+
+ #menu {
+    display: none;
+  }
+
+  .close-btn{
+ 
+    margin-left: 150px;
+    margin-bottom: 30px;
+  }
+
+  
+
+
+ #menu:checked ~ nav .burger-icon span{
+     display: none;
+  }
+
+  #menu:checked ~ nav {
+    transform: translate3d(0,0,0);
+    
+  }
