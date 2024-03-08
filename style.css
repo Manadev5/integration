@@ -226,3 +226,105 @@ textarea{
     transform: translate3d(0,0,0);
     
   }
+
+  @media  screen and (min-width: 600px) {
+
+    header {
+        background-color: blue;
+        flex-direction: column;
+    }
+
+    .burger-icon{
+        display: none;
+    }
+
+    .close-btn{
+        display: none;
+    } 
+
+    h2{
+        font-size: 45px;
+    }
+
+    nav{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        transform:none;
+        background-color: transparent;
+        width: 100%;
+    }
+
+    nav ul{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    h1{
+        font-size: 120px;
+        background-color: green;
+    }
+
+    .projets{
+        background-color: blue;
+       
+    }
+
+    h3{
+        font-size: 75px;
+    }
+
+    .block-projets{
+        display: flex;
+    }
+
+    .block-projets img{
+        height: 500px;
+    }
+
+    .block-projets p{
+        text-align: start;
+    }
+
+    .block-projets button{
+        margin: 5% 0 8% 5%
+        
+    }
+    
+    .etudes{
+        background-color: green;
+    }
+
+    .info-perso{
+        display:flex;
+    }
+
+    .info-perso img{
+        width: 20%;
+        height: 300px;
+    }
+
+    .info-perso ul li{
+        margin-bottom: 55px;
+    }
+
+    .numero{
+       position: relative;
+       left: 400px;
+       bottom: 76px
+    }
+
+    .blocks {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blocks div{
+        display: flex;
+    }
+
+    .blocks p {
+         font-size: 22px;
+    }
+  } 
+  
